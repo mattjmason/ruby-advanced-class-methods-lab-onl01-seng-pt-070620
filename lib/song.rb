@@ -5,6 +5,7 @@ class Song
   def self.all
     @@all
   end
+  
 def self.create(name)
   song = self.new 
   song.name = name
@@ -17,5 +18,4 @@ end
 
 end
 
-song = Song.create 
-Song.all.include?(song)
+s
